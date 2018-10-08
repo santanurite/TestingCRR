@@ -10,7 +10,7 @@
     {
         public RuntimeTester(IPosApplication posApplication)
         {
-			      //ABHISHEK RAKSHIT / SANTANU - UPDATE
+			//ABHISHEK RAKSHIT / NEW SANTANU'S CHANGES
             PosApplication = posApplication;
         }
 
