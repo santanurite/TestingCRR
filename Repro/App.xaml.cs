@@ -1,18 +1,5 @@
 ﻿namespace CloudRetailer.Pos
 {
-    using System;
-    using System.Collections.Generic;
-    using System.ComponentModel.Composition;
-    using System.ComponentModel.Composition.Primitives;
-    using System.Diagnostics;
-    using System.Globalization;
-    using System.IO;
-    using System.Linq;
-    using System.Reflection;
-    using System.Threading;
-    using System.Windows;
-    using System.Windows.Markup;
-    using System.Data.SqlClient;
     using CloudRetailer.Pos.Contracts.BusinessRules;
     using CloudRetailer.Pos.Contracts.Core;
     using CloudRetailer.Pos.Contracts.Hardware;
@@ -43,6 +30,10 @@
 
         private string[] CommandLineArgs { get; set; }
 
+private sm_1(){
+
+var test ="Hi ";
+}
         static App()
         {
             //Debugger.Launch();
