@@ -1,5 +1,6 @@
 ﻿namespace CloudRetailer.Pos
 {
+	//This First change
     using System;
     using System.Collections.Generic;
     using System.Linq;

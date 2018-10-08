@@ -17,9 +17,7 @@
     using Views;
     using NotificationMessage = Contracts.Messaging.NotificationMessage;
 
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
+
     public partial class App : Application
     {
         private const int DuplicateInstanceShutdownExitCode = -1000;
