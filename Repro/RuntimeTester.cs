@@ -32,6 +32,9 @@
         {            
             try
             {
+		var testInt = 0;
+		testInt ++;
+
                 //TODO: think of a way to streamline registering listeners, right now they are registere in the test, but unregistered in the runtime tester
                 return runtimeTest.Run(PosApplication);
             }
