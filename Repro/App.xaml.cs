@@ -65,7 +65,7 @@ var test ="Hi ";
 
             var assemblyName = new AssemblyName(args.Name);
             var assembly = AppDomain.CurrentDomain.GetAssemblies().FirstOrDefault(a => a.GetName().Name == assemblyName.Name);
-            //var path = Assembly.GetEntryAssembly().Location 
+            var path = Assembly.GetEntryAssembly().Location 
             return assembly;
         }
 
