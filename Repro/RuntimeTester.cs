@@ -9,7 +9,7 @@
 
     public class RuntimeTester
     {
-	//Modified Existing file
+	    //Modified Existing file
         public RuntimeTester(IPosApplication posApplication)
         {
 			//ABHISHEK RAKSHIT / NEW SANTANU'S CHANGES
@@ -25,6 +25,11 @@
 		}
 	}
 	
+        public int Add(int a, int b)
+        {
+            return a + b;
+        }
+
         public IPosApplication PosApplication { get; }
 
         public IEnumerable<RuntimeTestResult> RunAll()
