@@ -17,6 +17,14 @@
             PosApplication = posApplication;
         }
 
+	private void CheckIfNull(){
+	{
+		if (PosApplication == null)
+		{
+			throw new Exception("Should no null");
+		}
+	}
+	
         public IPosApplication PosApplication { get; }
 
         public IEnumerable<RuntimeTestResult> RunAll()
@@ -33,9 +41,6 @@
         {            
             try
             {
-		var testInt = 0;
-		testInt ++;
-
                 //TODO: think of a way to streamline registering listeners, right now they are registere in the test, but unregistered in the runtime tester
                 return runtimeTest.Run(PosApplication);
             }
