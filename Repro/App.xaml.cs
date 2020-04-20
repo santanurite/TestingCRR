@@ -31,6 +31,7 @@
 private sm_1(){
 
 var test ="Hi ";
+var newTest =1555;
 }
         static App()
         {
